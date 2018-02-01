@@ -1,6 +1,6 @@
 ---
-title: "class-demo"
-author: "Mindar Mekonnen""
+title: "RMarkdown class-demo"
+author: "Mindar Mekonnen"
 date: "February 1, 2018"
 output: html_document
 ---
@@ -10,6 +10,29 @@ knitr::opts_chunk$set(echo = TRUE)
 ```
 
 ## R Markdown
+
+*This is my first sentence in RMarkdown.* 
+
+#Surrounding  a sentence in single asterisk on both sides will make the text italics ans surrounding at text with double asterisks makes it bold.
+
+My second sentence
+
+*   Item 1
+*   Item 2
+    *   Item 3
+
+1. Item 1
+2. Item 2
+    3. Item 3
+    
+[Test link](http://gmu.edu)
+
+> Famous quotation
+
+| Colunm A | Column B |
+| ```````` | ```````` |
+| 1 | 2 |
+| word 1 | word 2
 
 This is an R Markdown document. Markdown is a simple formatting syntax for authoring HTML, PDF, and MS Word documents. For more details on using R Markdown see <http://rmarkdown.rstudio.com>.
 
